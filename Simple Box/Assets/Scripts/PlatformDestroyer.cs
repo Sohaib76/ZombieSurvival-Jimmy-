@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class PlatformDestroyer : MonoBehaviour {
 
 	// Use this for initialization
@@ -14,6 +15,8 @@ public class PlatformDestroyer : MonoBehaviour {
     {
         if (Vector2.Distance(transform.position, Camera.main.transform.position) > 10)
             Destroy(gameObject);
+
+       
 
     }
 }
